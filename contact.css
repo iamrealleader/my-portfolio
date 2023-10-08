@@ -1,0 +1,118 @@
+.form form{
+    width: 80vw;
+    height: 100vh;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+}
+input[type ="text"],
+input[type="number"],
+input[type="email"],
+fieldset{
+    width: 70vw;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 71.5vw;
+    height: 15vh;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.form-input .check{
+    font-size: 23px;
+    word-spacing: 3px;
+    padding-right: 15px;
+}
+.form-input .font{
+    font-size: 22px;
+}
+.checks{
+   margin: 7px 0px;
+}
+#check{
+   width: 30px;
+   height: 30px;
+   margin-top: 10px;
+}
+.gap{
+    margin-right: 50px;
+}
+input[type="range"]{
+    width: 68vw;
+    margin: 0px 10px;
+}
+.spacing{
+    padding-left: 25px;
+    word-spacing: 10vw;
+}
+.options{
+    padding: 10px;
+    margin-bottom: 7px;
+    width: 28vw;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+form button{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: blue;
+    background-color: greenyellow;
+    margin: auto;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+form button:hover{
+    color: greenyellow;
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width : 920px){
+    .spacing{
+        word-spacing: 8vw;
+    }
+}
+@media screen and (max-width : 580px){
+    .spacing{
+        word-spacing: 7.5vw;
+    }
+}
+@media screen and (max-width : 550px){
+    .spacing{
+        word-spacing: 6.5vw;
+    }
+}
+@media screen and (max-width : 414px){
+    .spacing{
+        word-spacing: 4.7vw;
+    }
+    .form-input .check{
+        font-size: 15px;
+        padding-right: 10px;
+    }
+
+}
+@media screen and (max-width : 395px){
+    .spacing{
+        word-spacing: 3.3vw;
+    }
+}
+@media screen and (max-width : 540px){
+    .form-input .check{
+        word-spacing: 0px;
+        padding-right: 10px;
+    }
+}

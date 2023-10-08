@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-: Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+ <div class="container">
+   <div class="hamburger">
+      <svg class="hamb" fill="none" viewBox="0 0 15 15" height="1em" width="1em" >
+        <path
+          fill="currentColor"
+          fillRule="evenodd"
+          d="M1.5 3a.5.5 0 000 1h12a.5.5 0 000-1h-12zM1 7.5a.5.5 0 01.5-.5h12a.5.5 0 010 1h-12a.5.5 0 01-.5-.5zm0 4a.5.5 0 01.5-.5h12a.5.5 0 010 1h-12a.5.5 0 01-.5-.5z"
+          clipRule="evenodd"
+        />
+      </svg><svg class="cross" fill="none" viewBox="0 0 15 15" height="1em" width="1em" >
+        <path
+          fill="currentColor"
+          fillRule="evenodd"
+          d="M11.782 4.032a.575.575 0 10-.813-.814L7.5 6.687 4.032 3.218a.575.575 0 00-.814.814L6.687 7.5l-3.469 3.468a.575.575 0 00.814.814L7.5 8.313l3.469 3.469a.575.575 0 00.813-.814L8.313 7.5l3.469-3.468z"
+          clipRule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="left-nav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+  <div class="right-main">
+     <div class="form">
+      <form action="#">
+        <div class="form-input">
+         <h2>Name</h2> <input type="text" required>
+        </div>
+        <div class="form-input">
+          <h3>Phone Number</h3> <input type="number">
+        </div>
+        <div class="form-input">
+         <h3>Email</h3><input type="email" required>
+        </div>
+        <div class="form-input">
+         <h3>Addres</h3> <textarea name="addres" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="form-input checks">
+          <span class="check">App Ko Hamari Website Kasa Lagi</span> <input type="checkbox" name="gender">
+         </div>
+         <div class="form-input">
+          <fieldset>
+            <legend> <h2>gender</h2> </legend>
+            <span class="font">Male</span> 
+            <input class="gap" type="radio" name="gender">
+            <span class="font">Female</span> 
+            <input type="radio" name="gender">
+          </fieldset>
+         </div>
+         <div class="form-input">
+         <fieldset>
+           <legend> <h2>Your Age </h2></legend> <h3 class="spacing">10 20 30 40 50 60+</h3> <input type="range">
+          </fieldset>
+         </div>
+         <div class="form-input">
+          <select class="options"name="card" id="card">
+            <option value="hello">Where From You</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="Dubahi">Dubahi</option>
+            <option value="Dubahi">Other Country</option>
+          </select>
+          <button type="submit">Submit</button>
+         </div>
+        
+      </form>
+    </div>
+ </div>
+ </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
